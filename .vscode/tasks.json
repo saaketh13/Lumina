@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Lumina",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++17", "-o", "miniGPT", "src/main.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
