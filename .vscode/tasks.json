@@ -5,7 +5,7 @@
         "label": "Build Lumina",
         "type": "shell",
         "command": "g++",
-        "args": ["-std=c++17", "-o", "miniGPT", "src/main.cpp"],
+        "args": ["-std=c++17", "-o", "miniGPT", "src/tokenizer.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true

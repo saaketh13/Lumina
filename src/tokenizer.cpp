@@ -1,10 +1,11 @@
+#ifndef INCLUDE/TOKENIZER_H
+#define INCLUDE/TOKENIZER_H
+
+#include <string>
 #include <iostream>
+#include <list>
 
 using namespace std;
-// int main() {
-//     std::cout << "Hello! " << std::endl;
-//     return 0;
-// }
 
 string main() {
     std::string a = "Hello, This is a test for the tokenizer!!!";
@@ -14,3 +15,6 @@ string main() {
         std::cout << i << std::endl;
     }
 }
+
+
+#endif
